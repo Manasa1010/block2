@@ -6,10 +6,10 @@ class Polygon {
           friction:0.1,
           density:1
       }
-      this.body = Bodies.rectangle(x, y, 100,100, options);
-      this.width=100;
-      this.height=100;
-      this.image=loadImage("poly.png");
+      this.body = Bodies.rectangle(x, y, 50,50, options);
+      this.width=50;
+      this.height=50;
+      this.image=loadImage("poly (2).png");
       World.add(world, this.body);
     }
     display(){
